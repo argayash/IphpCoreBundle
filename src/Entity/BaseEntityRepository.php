@@ -1,6 +1,6 @@
 <?php
 
-namespace Argayash\CoreBundle\Entity;
+namespace Iphp\CoreBundle\Entity;
 
 use Doctrine\ORM\EntityRepository;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Argayash\CoreBundle\Command;
+namespace Iphp\CoreBundle\Command;
 
 use Application\Argayash\CoreBundle\Entity\Rubric;
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;

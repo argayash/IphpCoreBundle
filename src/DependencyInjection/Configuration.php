@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Argayash\CoreBundle\DependencyInjection;
+namespace Iphp\CoreBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

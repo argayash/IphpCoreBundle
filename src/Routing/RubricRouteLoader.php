@@ -1,8 +1,8 @@
 <?php
 
-namespace Argayash\CoreBundle\Routing;
+namespace Iphp\CoreBundle\Routing;
 
-use Argayash\CoreBundle\Module\ModuleManager;
+use Iphp\CoreBundle\Module\ModuleManager;
 use Doctrine\ORM\EntityManager;
 use Exception;
 use Psr\Log\LoggerInterface;

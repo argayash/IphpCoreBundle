@@ -5,7 +5,7 @@
  * Time: 11:55.
  */
 
-namespace Argayash\CoreBundle\Module;
+namespace Iphp\CoreBundle\Module;
 
 abstract class EntityModule extends Module
 {

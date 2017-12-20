@@ -1,6 +1,6 @@
 <?php
 
-namespace Argayash\CoreBundle\Form\Type;
+namespace Iphp\CoreBundle\Form\Type;
 
 use Doctrine\ORM\EntityManager;
 use Symfony\Bridge\Doctrine\Form\ChoiceList\EntityChoiceList;

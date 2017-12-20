@@ -3,9 +3,9 @@
  * @author Vitiko <vitiko@mail.ru>
  */
 
-namespace Argayash\CoreBundle\Traits;
+namespace Iphp\CoreBundle\Traits;
 
-use Argayash\CoreBundle\Routing\EntityRouter;
+use Iphp\CoreBundle\Routing\EntityRouter;
 
 trait HasSitePathBySlug
 {

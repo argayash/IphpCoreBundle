@@ -5,7 +5,7 @@
  * Time: 16:43.
  */
 
-namespace Argayash\CoreBundle\Controller;
+namespace Iphp\CoreBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;

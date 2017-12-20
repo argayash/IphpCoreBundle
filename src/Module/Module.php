@@ -5,9 +5,9 @@
  * Time: 15:29.
  */
 
-namespace Argayash\CoreBundle\Module;
+namespace Iphp\CoreBundle\Module;
 
-use Argayash\CoreBundle\Model\RubricInterface;
+use Iphp\CoreBundle\Model\RubricInterface;
 use Symfony\Component\Routing\Route;
 use Symfony\Component\Routing\RouteCollection;
 

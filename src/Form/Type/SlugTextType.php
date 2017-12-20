@@ -1,6 +1,6 @@
 <?php
 
-namespace Argayash\CoreBundle\Form\Type;
+namespace Iphp\CoreBundle\Form\Type;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormInterface;

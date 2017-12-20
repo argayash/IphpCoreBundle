@@ -1,6 +1,6 @@
 <?php
 
-namespace Argayash\CoreBundle\Form\Type;
+namespace Iphp\CoreBundle\Form\Type;
 
 use Sonata\MediaBundle\Model\Media;
 use Symfony\Component\DependencyInjection\ContainerInterface;

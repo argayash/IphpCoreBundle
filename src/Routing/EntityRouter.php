@@ -5,9 +5,9 @@
  * Time: 10:26.
  */
 
-namespace Argayash\CoreBundle\Routing;
+namespace Iphp\CoreBundle\Routing;
 
-use Argayash\CoreBundle\Model\Rubric;
+use Iphp\CoreBundle\Model\Rubric;
 use Symfony\Bundle\FrameworkBundle\Routing\Router;
 
 class EntityRouter

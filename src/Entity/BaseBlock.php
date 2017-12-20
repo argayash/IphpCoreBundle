@@ -1,8 +1,8 @@
 <?php
 
-namespace Argayash\CoreBundle\Entity;
+namespace Iphp\CoreBundle\Entity;
 
-use Argayash\CoreBundle\Model\Block;
+use Iphp\CoreBundle\Model\Block;
 use Doctrine\Common\Collections\ArrayCollection;
 
 abstract class BaseBlock extends Block

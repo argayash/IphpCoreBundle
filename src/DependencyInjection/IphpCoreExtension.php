@@ -1,6 +1,6 @@
 <?php
 
-namespace Argayash\CoreBundle\DependencyInjection;
+namespace Iphp\CoreBundle\DependencyInjection;
 
 use Sonata\EasyExtendsBundle\Mapper\DoctrineCollector;
 use Symfony\Component\Config\FileLocator;

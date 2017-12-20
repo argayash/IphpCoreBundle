@@ -1,6 +1,6 @@
 <?php
 
-namespace Argayash\CoreBundle\Controller;
+namespace Iphp\CoreBundle\Controller;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Component\HttpFoundation\RedirectResponse;

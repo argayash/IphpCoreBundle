@@ -5,7 +5,7 @@
  * Time: 15:29.
  */
 
-namespace Argayash\CoreBundle\Module;
+namespace Iphp\CoreBundle\Module;
 
 class RedirectModule extends Module
 {

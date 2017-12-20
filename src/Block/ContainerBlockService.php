@@ -1,6 +1,6 @@
 <?php
 
-namespace Argayash\CoreBundle\Block;
+namespace Iphp\CoreBundle\Block;
 
 use Sonata\AdminBundle\Form\FormMapper;
 use Sonata\BlockBundle\Block\BaseBlockService;

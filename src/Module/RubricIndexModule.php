@@ -1,6 +1,6 @@
 <?php
 
-namespace Argayash\CoreBundle\Module;
+namespace Iphp\CoreBundle\Module;
 
 /**
  * Модуль - список подрубрик текущей рубрики.

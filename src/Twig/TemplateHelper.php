@@ -1,8 +1,8 @@
 <?php
 
-namespace Argayash\CoreBundle\Twig;
+namespace Iphp\CoreBundle\Twig;
 
-use Argayash\CoreBundle\Manager\RubricManager;
+use Iphp\CoreBundle\Manager\RubricManager;
 
 class TemplateHelper
 {

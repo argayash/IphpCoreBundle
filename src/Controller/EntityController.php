@@ -3,7 +3,7 @@
  * @author Vitiko <vitiko@mail.ru>
  */
 
-namespace Argayash\CoreBundle\Controller;
+namespace Iphp\CoreBundle\Controller;
 
 use Doctrine\ORM\QueryBuilder;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;

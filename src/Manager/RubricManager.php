@@ -1,6 +1,6 @@
 <?php
 
-namespace Argayash\CoreBundle\Manager;
+namespace Iphp\CoreBundle\Manager;
 
 use Doctrine\ORM\EntityManager;
 use Symfony\Component\DependencyInjection\ContainerAware;

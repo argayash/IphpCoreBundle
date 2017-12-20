@@ -1,6 +1,6 @@
 <?php
 
-namespace Argayash\CoreBundle\Model;
+namespace Iphp\CoreBundle\Model;
 
 use Sonata\BlockBundle\Model\Block as BaseBlock;
 use Sonata\BlockBundle\Model\BlockInterface;

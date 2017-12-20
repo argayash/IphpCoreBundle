@@ -3,7 +3,7 @@
  * @author Vitiko <vitiko@mail.ru>
  */
 
-namespace Argayash\CoreBundle\Traits\Field;
+namespace Iphp\CoreBundle\Traits\Field;
 
 trait HasSlug
 {

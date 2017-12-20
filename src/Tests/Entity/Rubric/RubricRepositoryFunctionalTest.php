@@ -1,6 +1,6 @@
 <?php
 
-namespace Argayash\CoreBundle\Tests\Entity;
+namespace Iphp\CoreBundle\Tests\Entity;
 
 use Application\Argayash\CoreBundle\Entity\Rubric;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;

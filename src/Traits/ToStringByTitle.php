@@ -3,7 +3,7 @@
  * @author Vitiko <vitiko@mail.ru>
  */
 
-namespace Argayash\CoreBundle\Traits;
+namespace Iphp\CoreBundle\Traits;
 
 trait ToStringByTitle
 {

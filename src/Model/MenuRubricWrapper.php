@@ -1,6 +1,6 @@
 <?php
 
-namespace Argayash\CoreBundle\Model;
+namespace Iphp\CoreBundle\Model;
 
 use Iphp\TreeBundle\Model\TreeNodeWrapper;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Argayash\CoreBundle\Controller;
+namespace Iphp\CoreBundle\Controller;
 
 use Sonata\AdminBundle\Controller\CRUDController as Controller;
 use Symfony\Component\Security\Core\Exception\AccessDeniedException;

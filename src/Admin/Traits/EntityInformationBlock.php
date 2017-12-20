@@ -3,7 +3,7 @@
  * @author Vitiko <vitiko@mail.ru>
  */
 
-namespace Argayash\CoreBundle\Admin\Traits;
+namespace Iphp\CoreBundle\Admin\Traits;
 
 use Sonata\AdminBundle\Form\FormMapper;
 

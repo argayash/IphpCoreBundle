@@ -1,8 +1,8 @@
 <?php
 
-namespace Argayash\CoreBundle\Admin;
+namespace Iphp\CoreBundle\Admin;
 
-use Argayash\CoreBundle\Admin\Traits\EntityInformationBlock;
+use Iphp\CoreBundle\Admin\Traits\EntityInformationBlock;
 use Sonata\AdminBundle\Admin\AbstractAdmin;
 
 class Admin extends AbstractAdmin

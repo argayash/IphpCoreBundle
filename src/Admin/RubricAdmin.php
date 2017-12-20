@@ -1,9 +1,9 @@
 <?php
 
-namespace Argayash\CoreBundle\Admin;
+namespace Iphp\CoreBundle\Admin;
 
-use Argayash\CoreBundle\Admin\Traits\EntityInformationBlock;
-use Argayash\CoreBundle\Model\RubricInterface;
+use Iphp\CoreBundle\Admin\Traits\EntityInformationBlock;
+use Iphp\CoreBundle\Model\RubricInterface;
 use Iphp\TreeBundle\Admin\TreeAdmin;
 use Sonata\AdminBundle\Admin\AdminInterface;
 use Sonata\AdminBundle\Datagrid\DatagridMapper;

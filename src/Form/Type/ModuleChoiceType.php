@@ -1,8 +1,8 @@
 <?php
 
-namespace Argayash\CoreBundle\Form\Type;
+namespace Iphp\CoreBundle\Form\Type;
 
-use Argayash\CoreBundle\Module\ModuleManager;
+use Iphp\CoreBundle\Module\ModuleManager;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Argayash\CoreBundle\Admin;
+namespace Iphp\CoreBundle\Admin;
 
 use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Sonata\AdminBundle\Datagrid\ListMapper;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Argayash\CoreBundle\Model;
+namespace Iphp\CoreBundle\Model;
 
 interface RubricInterface
 {

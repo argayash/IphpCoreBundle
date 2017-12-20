@@ -1,8 +1,8 @@
 <?php
 
-namespace Argayash\CoreBundle;
+namespace Iphp\CoreBundle;
 
-use Argayash\CoreBundle\DependencyInjection\Compiler\FormPass;
+use Iphp\CoreBundle\DependencyInjection\Compiler\FormPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

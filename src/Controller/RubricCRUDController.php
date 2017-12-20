@@ -1,6 +1,6 @@
 <?php
 
-namespace Argayash\CoreBundle\Controller;
+namespace Iphp\CoreBundle\Controller;
 
 use  Iphp\TreeBundle\Controller\CRUDController as TreeCRUDController;
 

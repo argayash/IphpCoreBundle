@@ -2,7 +2,7 @@
 
 //НЕ ВКЛЮЧЕН!
 
-namespace Argayash\CoreBundle\Listener;
+namespace Iphp\CoreBundle\Listener;
 
 use Doctrine\ORM\Event\LifecycleEventArgs;
 

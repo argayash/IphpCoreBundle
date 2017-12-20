@@ -1,6 +1,6 @@
 <?php
 
-namespace Argayash\CoreBundle\Util;
+namespace Iphp\CoreBundle\Util;
 
 class Slugify
 {

@@ -3,7 +3,7 @@
  * @author Vitiko <vitiko@mail.ru>
  */
 
-namespace Argayash\CoreBundle\Kernel;
+namespace Iphp\CoreBundle\Kernel;
 
 use Symfony\Component\HttpKernel\Kernel;
 

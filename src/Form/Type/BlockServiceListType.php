@@ -1,6 +1,6 @@
 <?php
 
-namespace Argayash\CoreBundle\Form\Type;
+namespace Iphp\CoreBundle\Form\Type;
 
 use  Sonata\BlockBundle\Block\BlockServiceManagerInterface;
 use Sonata\BlockBundle\Form\Type\ServiceListType as BaseServiceListType;

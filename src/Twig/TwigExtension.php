@@ -1,9 +1,9 @@
 <?php
 
-namespace Argayash\CoreBundle\Twig;
+namespace Iphp\CoreBundle\Twig;
 
-use Argayash\CoreBundle\Manager\RubricManager;
-use Argayash\CoreBundle\Routing\EntityRouter;
+use Iphp\CoreBundle\Manager\RubricManager;
+use Iphp\CoreBundle\Routing\EntityRouter;
 use Symfony\Component\Security\Core\SecurityContextInterface;
 
 class TwigExtension extends \Twig_Extension
