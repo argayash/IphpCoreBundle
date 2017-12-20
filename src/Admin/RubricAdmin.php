@@ -22,7 +22,7 @@ class RubricAdmin extends TreeAdmin
     protected $userManager;
 
     /**
-     * @var \Argayash\CoreBundle\Manager\RubricManager
+     * @var \Iphp\CoreBundle\Manager\RubricManager
      */
     protected $rubricManager;
 
@@ -183,7 +183,7 @@ class RubricAdmin extends TreeAdmin
     }
 
     /**
-     * @param \Argayash\CoreBundle\Manager\RubricManager $rubricManager
+     * @param \Iphp\CoreBundle\Manager\RubricManager $rubricManager
      *
      * @return RubricAdmin
      */
@@ -195,7 +195,7 @@ class RubricAdmin extends TreeAdmin
     }
 
     /**
-     * @return \Argayash\CoreBundle\Manager\RubricManager
+     * @return \Iphp\CoreBundle\Manager\RubricManager
      */
     public function getRubricManager()
     {

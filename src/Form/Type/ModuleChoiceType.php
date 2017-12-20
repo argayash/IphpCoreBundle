@@ -9,7 +9,7 @@ use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 class ModuleChoiceType extends AbstractType
 {
     /**
-     * @var \Argayash\CoreBundle\Module\ModuleManager
+     * @var \Iphp\CoreBundle\Module\ModuleManager
      */
     protected $moduleManager;
 

@@ -2,7 +2,7 @@
 
 namespace Iphp\CoreBundle\Command;
 
-use Application\Argayash\CoreBundle\Entity\Rubric;
+use Application\Iphp\CoreBundle\Entity\Rubric;
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;

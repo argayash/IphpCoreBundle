@@ -2,7 +2,7 @@
 
 namespace Iphp\CoreBundle\Tests\Entity;
 
-use Application\Argayash\CoreBundle\Entity\Rubric;
+use Application\Iphp\CoreBundle\Entity\Rubric;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
 class RubricRepositoryFunctionalTest extends WebTestCase

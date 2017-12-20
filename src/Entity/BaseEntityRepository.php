@@ -16,7 +16,7 @@ abstract class BaseEntityRepository extends EntityRepository
      * @param string   $indexBy             the index for the from
      * @param \Closure $prepareQueryBuilder
      *
-     * @return \Argayash\CoreBundle\Entity\BaseEntityQueryBuilder
+     * @return \Iphp\CoreBundle\Entity\BaseEntityQueryBuilder
      */
     public function createQueryBuilder($alias = '', $indexBy = null, \Closure $prepareQueryBuilder = null)
     {

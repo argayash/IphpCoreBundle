@@ -62,7 +62,7 @@ class RubricManager extends ContainerAware
     }
 
     /**
-     * @return null|\Application\Argayash\CoreBundle\Entity\Rubric
+     * @return null|\Application\Iphp\CoreBundle\Entity\Rubric
      */
     public function getRubricFromRequest(Request $request = null)
     {

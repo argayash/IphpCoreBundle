@@ -34,7 +34,7 @@ class ParentBlockChoiceType extends AbstractType
 
                 return new  EntityChoiceList(
                     $em,
-                    'Application\Argayash\CoreBundle\Entity\Block',
+                    'Application\Iphp\CoreBundle\Entity\Block',
                     null,
                     new ORMQueryBuilderLoader($qb));
             },

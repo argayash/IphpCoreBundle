@@ -18,7 +18,7 @@ class RubricRouteLoader implements LoaderInterface
     protected $em;
 
     /**
-     * @var \Argayash\CoreBundle\Module\ModuleManager
+     * @var \Iphp\CoreBundle\Module\ModuleManager
      */
     protected $moduleManager;
 

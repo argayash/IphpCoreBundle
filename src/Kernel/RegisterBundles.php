@@ -34,7 +34,7 @@ class RegisterBundles
 
             new \Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
 
-            new \Argayash\CoreBundle\IphpCoreBundle(),
+            new \Iphp\CoreBundle\IphpCoreBundle(),
             new \Iphp\TreeBundle\IphpTreeBundle(),
 
             new \FOS\UserBundle\FOSUserBundle(),

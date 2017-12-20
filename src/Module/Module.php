@@ -24,7 +24,7 @@ abstract class Module
     /**
      * Access to external resources via ModuleManage.
      *
-     * @var \Argayash\CoreBundle\Module\ModuleManager
+     * @var \Iphp\CoreBundle\Module\ModuleManager
      */
     protected $moduleManager;
 
@@ -45,7 +45,7 @@ abstract class Module
     /**
      * Rubric where module placed.
      *
-     * @var \Argayash\CoreBundle\Model\Rubric
+     * @var \Iphp\CoreBundle\Model\Rubric
      */
     protected $rubric = null;
 

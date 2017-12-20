@@ -7,7 +7,7 @@ use Iphp\CoreBundle\Manager\RubricManager;
 class TemplateHelper
 {
     /**
-     * @var \Argayash\CoreBundle\Manager\RubricManager
+     * @var \Iphp\CoreBundle\Manager\RubricManager
      */
     protected $rubricManager;
 

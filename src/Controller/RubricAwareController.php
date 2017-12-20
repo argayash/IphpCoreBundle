@@ -11,7 +11,7 @@ use Symfony\Component\HttpFoundation\Request;
 class RubricAwareController extends Controller
 {
     /**
-     * @return \Argayash\CoreBundle\Entity\BaseRubricRepository
+     * @return \Iphp\CoreBundle\Entity\BaseRubricRepository
      */
     public function getRubricsRepository()
     {
@@ -19,7 +19,7 @@ class RubricAwareController extends Controller
     }
 
     /**
-     * @return \Argayash\CoreBundle\Manager\RubricManager
+     * @return \Iphp\CoreBundle\Manager\RubricManager
      */
     protected function getRubricManager()
     {
@@ -27,7 +27,7 @@ class RubricAwareController extends Controller
     }
 
     /**
-     * @return \Application\Argayash\CoreBundle\Entity\Rubric;
+     * @return \Application\Iphp\CoreBundle\Entity\Rubric;
      */
     protected function getCurrentRubric(Request $request = null)
     {

@@ -70,7 +70,7 @@ abstract class Rubric implements RubricInterface, \Iphp\TreeBundle\Model\TreeNod
      *
      * @param string $title
      *
-     * @return \Argayash\CoreBundle\Model\Rubric
+     * @return \Iphp\CoreBundle\Model\Rubric
      */
     public function setTitle($title)
     {
@@ -79,7 +79,7 @@ abstract class Rubric implements RubricInterface, \Iphp\TreeBundle\Model\TreeNod
         return $this;
     }
 
-    public function getSitePath(\Argayash\CoreBundle\Routing\EntityRouter $entityRouter, $action = null)
+    public function getSitePath(\Iphp\CoreBundle\Routing\EntityRouter $entityRouter, $action = null)
     {
         if ($action) {
             return $entityRouter->generateEntityActionPath($this, $action);

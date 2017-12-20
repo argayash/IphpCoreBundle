@@ -29,7 +29,7 @@ abstract class Block extends BaseBlock
     /**
      * Set rubric.
      *
-     * @param Argayash\CoreBundle\Model\RubricInterface $rubric
+     * @param Iphp\CoreBundle\Model\RubricInterface $rubric
      */
     public function setRubric(RubricInterface $rubric = null)
     {
@@ -39,7 +39,7 @@ abstract class Block extends BaseBlock
     /**
      * Get rubric.
      *
-     * @return Argayash\CoreBundle\Model\RubricInterface $rubric
+     * @return Iphp\CoreBundle\Model\RubricInterface $rubric
      */
     public function getRubric()
     {

@@ -98,7 +98,7 @@ class IphpCoreExtension extends Extension
 
 
 
-        <many-to-one field="parent" target-entity="Application\Argayash\CoreBundle\Entity\Rubric">
+        <many-to-one field="parent" target-entity="Application\Iphp\CoreBundle\Entity\Rubric">
                     <join-column name="parent_id" referenced-column-name="id" on-delete="SET NULL"/>
                     <gedmo:tree-parent/>
                 </many-to-one>

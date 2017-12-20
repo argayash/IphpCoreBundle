@@ -42,7 +42,7 @@ class BaseEntityQueryBuilder extends QueryBuilder
     }
 
     /**
-     * @return \Argayash\CoreBundle\Entity\BaseEntityQueryBuilder
+     * @return \Iphp\CoreBundle\Entity\BaseEntityQueryBuilder
      */
     public function addParameters($parameters)
     {

@@ -44,7 +44,7 @@ class RubricChoiceType extends AbstractType
                 }
 
                 $entityChoiceList = new  EntityChoiceList($em,
-                    'Application\Argayash\CoreBundle\Entity\Rubric',
+                    'Application\Iphp\CoreBundle\Entity\Rubric',
                     $options['display_method'],
                     new ORMQueryBuilderLoader($qb));
 

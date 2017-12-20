@@ -24,7 +24,7 @@ class ModuleManager extends ContainerAware
     }
 
     /**
-     * @return \Argayash\CoreBundle\Routing\EntityRouter
+     * @return \Iphp\CoreBundle\Routing\EntityRouter
      */
     public function getEntityRouter()
     {
@@ -128,7 +128,7 @@ class ModuleManager extends ContainerAware
     /**
      * @param $bundle
      *
-     * @return \Argayash\CoreBundle\Module\Module[]
+     * @return \Iphp\CoreBundle\Module\Module[]
      */
     public function bundleModules($bundle)
     {
@@ -156,11 +156,11 @@ class ModuleManager extends ContainerAware
     }
 
     /**
-     * @param \Application\Argayash\CoreBundle\Entity\Rubric $rubric
+     * @param \Application\Iphp\CoreBundle\Entity\Rubric $rubric
      *
-     * @return \Argayash\CoreBundle\Module\Module
+     * @return \Iphp\CoreBundle\Module\Module
      */
-    public function getModuleFromRubric(\Application\Argayash\CoreBundle\Entity\Rubric $rubric)
+    public function getModuleFromRubric(\Application\Iphp\CoreBundle\Entity\Rubric $rubric)
     {
         $moduleClassName = $rubric->getControllerName();
         if (!$moduleClassName) {
@@ -178,14 +178,14 @@ class ModuleManager extends ContainerAware
     /**
      * @param $moduleClassName
      *
-     * @return \Argayash\CoreBundle\Module\Module
+     * @return \Iphp\CoreBundle\Module\Module
      */
     public function getModuleInstance($moduleClassName)
     {
         if (!class_exists($moduleClassName, true)) {
             return null;
         }
-        /** @var $module \Argayash\CoreBundle\Module\Module */
+        /** @var $module \Iphp\CoreBundle\Module\Module */
         $module = new $moduleClassName();
         $module->setManager($this);
 

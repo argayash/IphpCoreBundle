@@ -14,12 +14,12 @@ class TwigExtension extends \Twig_Extension
     protected $twigEnviroment;
 
     /**
-     * @var \Argayash\CoreBundle\Manager\RubricManager
+     * @var \Iphp\CoreBundle\Manager\RubricManager
      */
     protected $rubricManager;
 
     /**
-     * @var \Argayash\CoreBundle\Routing\EntityRouter;
+     * @var \Iphp\CoreBundle\Routing\EntityRouter;
      */
     protected $entityRouter;
 
