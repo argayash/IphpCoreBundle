@@ -53,17 +53,17 @@ class TwigExtension extends \Twig_Extension
     public function getFunctions()
     {
         return array(
-            'iphp_block_by_name' => new \Twig_Function_Method($this, 'getBlockByName'),
+            'iphp_block_by_name' => new \Twig_SimpleFunction('iphp_block_by_name', [$this, 'getBlockByName']),
             //Camel case forever
-            'entity_path' => new \Twig_Function_Method($this, 'getEntityPath'),
-            'entity_action' => new \Twig_Function_Method($this, 'getEntityActionPath'),
-            'inline_edit' => new \Twig_Function_Method($this, 'getInlineEditStr', array('is_safe' => array('html'))),
+            'entity_path' => new \Twig_SimpleFunction('entity_path', [$this, 'getEntityPath']),
+            'entity_action' => new \Twig_SimpleFunction('entity_action', [$this, 'getEntityActionPath']),
+            'inline_edit' => new \Twig_SimpleFunction('inline_edit', [$this, 'getInlineEditStr'], array('is_safe' => array('html'))),
             //For BC
-            'entitypath' => new \Twig_Function_Method($this, 'getEntityPath'),
-            'entityaction' => new \Twig_Function_Method($this, 'getEntityActionPath'),
-            'inlineedit' => new \Twig_Function_Method($this, 'getInlineEditStr', array('is_safe' => array('html'))),
-            'rpath' => new \Twig_Function_Method($this, 'getRubricPath'),
-            'path_exists' => new \Twig_Function_Method($this, 'pathExists'),
+            'entitypath' => new \Twig_SimpleFunction('entitypath', [$this, 'getEntityPath']),
+            'entityaction' => new \Twig_SimpleFunction('entityaction', [$this, 'getEntityActionPath']),
+            'inlineedit' => new \Twig_SimpleFunction('inlineedit', [$this, 'getInlineEditStr'], array('is_safe' => array('html'))),
+            'rpath' => new \Twig_SimpleFunction('rpath', [$this, 'getRubricPath']),
+            'path_exists' => new \Twig_SimpleFunction('path_exists', [$this, 'pathExists']),
 
         );
     }
